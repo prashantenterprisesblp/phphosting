@@ -15,9 +15,10 @@ $scheme = $_GET["scheme"];
 <body>
 
 <script>
+  <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '312339728800370',
+      appId      : '284203378622712',
       xfbml      : true,
       version    : 'v2.8'
     });
@@ -31,6 +32,7 @@ $scheme = $_GET["scheme"];
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+
 
 <?php
 if($scheme != "" || $scheme != undefined || $scheme != "null")
