@@ -37,9 +37,11 @@ $scheme = $_GET["scheme"];
 <?php
 if($scheme != "" || $scheme != undefined || $scheme != "null")
 { ?>	
+ <script>
 setTimeout(function() { window.location='https://play.google.com/store/apps/details?id=com.lotusflare.globe.de'; }, 1000);
 
 window.location = 'switch://globe/launch/<?php echo $scheme; ?>';
+  </script>
 <?php } ?>   
 
 Redirecting...
