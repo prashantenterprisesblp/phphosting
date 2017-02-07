@@ -15,7 +15,7 @@ $scheme = $_GET["scheme"];
 <body>
 
 <script>
-  <script>
+  
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '284203378622712',
