@@ -33,7 +33,7 @@ $scheme = $_GET["scheme"];
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
-
+</script>
 <?php
 if($scheme != "" || $scheme != undefined || $scheme != "null")
 { ?>	
@@ -41,7 +41,7 @@ setTimeout(function() { window.location='https://play.google.com/store/apps/deta
 
 window.location = 'switch://globe/launch/<?php echo $scheme; ?>';
 <?php } ?>   
-</script>
+
 Redirecting...
 </body>
 </html>
